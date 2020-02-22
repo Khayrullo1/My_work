@@ -1,0 +1,40 @@
+@import 'fonts.css';
+@import 'icon.css';
+
+:root {
+    --ps: 'product-sans';
+    --mr: 'Montserrat-Regular';
+    --mb: 'Montserrat-Bold';
+    --yellow: #ffcb02;
+    --dark: #1e2020;
+    --dark__light: #282929;
+    --white: #fff;
+}
+
+*,
+ul,
+p,
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--ps);
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
