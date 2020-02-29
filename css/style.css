@@ -320,6 +320,7 @@
 .btn {
     color: var(--white);
     text-decoration: none;
+    width: 100%;
 }
 
 .btn:hover {
